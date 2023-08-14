@@ -609,9 +609,8 @@
                               <span id="error-msg"></span>
                             </div>
                           </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
+                          <div class="col-md-12 text-center my-3"> 
+                            <span id="form-error-msg"></span>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                           </div>
                           <div class="col-md-12 text-center">
@@ -696,6 +695,18 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+
+
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("7CBmNkzBLWWnLirjy");
+})();
+</script>
 </body>
 
 </html>
